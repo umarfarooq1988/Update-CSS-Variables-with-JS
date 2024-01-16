@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-color: #011524;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+:root {
+    --base: #f0c506;
+    --spacing: 40px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    width: 40%;
+    filter: blur(var(--blur));
+}
+
+.h1 {
+    color: var(--base);
+}
+
+input {
+    width: 100px;
+}
